@@ -1,3 +1,4 @@
+/// Problem link https://omegaup.com/arena/problem/RiceHub/#problems
 #include <bits/stdc++.h>
 #define optimizar ios_base::sync_with_stdio(0);cin.tie(0);
 
