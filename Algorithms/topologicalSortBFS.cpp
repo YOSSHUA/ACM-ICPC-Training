@@ -1,6 +1,7 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> /// O( V + E) 
 
 using namespace std;
+
 const int MAXN = 1000000;
 struct node{
     vector<int> adjL; /// Adjacent list
