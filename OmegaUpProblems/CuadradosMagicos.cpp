@@ -1,4 +1,5 @@
 /// link https://omegaup.com/arena/problem/Cuadrados-Magicos/#problems
+/// Problem about Breadth-first search
 #include <bits/stdc++.h>
 
 using namespace std;
