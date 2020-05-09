@@ -1,4 +1,5 @@
 ///link https://omegaup.com/arena/problem/crateres/#problems
+/// Problem about depth first search (DFS)
 #include <bits/stdc++.h>
 
 using namespace std;
