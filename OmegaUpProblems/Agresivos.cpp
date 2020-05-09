@@ -1,5 +1,5 @@
 /// link https://omegaup.com/arena/problem/agresivos/#problems
-/// Problem about Dynamic Programming
+/// Problem about binary search 
 #include <bits/stdc++.h>
 
 using namespace std;
