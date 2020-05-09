@@ -24,7 +24,7 @@ int main()
     cin >> n; /// number of nodes
     init(); /// initializes with 0 each node
 
-    cin  >> edges;
+    cin  >> edges;  ///number of edges
     int a,b;
     for(int i = 1; i<= edges; i++){  /// Input a --> b
         cin  >> a  >> b;
