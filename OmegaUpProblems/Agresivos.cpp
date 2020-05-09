@@ -1,4 +1,5 @@
 /// link https://omegaup.com/arena/problem/agresivos/#problems
+/// Problem about Dynamic Programming
 #include <bits/stdc++.h>
 
 using namespace std;
