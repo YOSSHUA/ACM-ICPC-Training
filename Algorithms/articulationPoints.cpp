@@ -13,7 +13,7 @@ node graph[MAXN];  /// Nodes are numbered from 1 to n
 int n, edges;
 bool artPoint[MAXN];
 int order[MAXN]; /// Node level
-int lower[MAXN]; /// The most that I can go up
+int lower[MAXN]; /// The least level that I can go up
 bool visited[MAXN]; /// False if I haven't visited
 /// One node can be art point if 1)Is root and has at least 2 sons 2) It's not root but some of its sons cannot go up V
 void getArtPoints(int v, bool isRoot){
@@ -23,7 +23,7 @@ void getArtPoints(int v, bool isRoot){
     for(int u:graph[v].adjL){
         if(!visited[u]){ ///I haven't been visited
             order[u] = order[v] + 1; /// U is one level more than its father
-            lower[u] = order[v] + 1; /// for now the most that I can go up its my order
+            lower[u] = order[v] + 1; /// for now the least level that I can go up its my order
             children+=1;
             graph[u].parent = v;
             getArtPoints(u,false);
