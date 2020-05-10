@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
-
+/// This algorithm get all articulation points in a undirected graph.
+/// An articulation point is such that if you remove it from the graph, its sons lost the connection with the entire graph.
+/// It is, there isn't other way to go up from sons without the removed node.
 using namespace std;
 const int MAXN = 10005;
 struct node{
