@@ -1,4 +1,8 @@
-#include <iostream>     // std::cout, std::boolalpha
+/*
+    We are going to generate suffix array of a given string s to answer multiple querys 
+    to find a string cad in s. 
+*/
+#include <iostream>    
 #include <algorithm>
 #include <vector>
 #include <string>
@@ -76,11 +80,14 @@ string binSearch(){
 }
 int main(){
     ios_base::sync_with_stdio(0); cin.tie(0);
+    /// string s - String where we are going to look for matching
     cin >> s;
     suffixA = suffix_array(s);
     cin >> n;
     for(int i = 0; i < n; i++){
+        /// string cad - String that we will look for in S.
         cin >> cad;
+        /// Print "Yes" if s contains cad else print "No" 
         cout << binSearch() <<'\n';
     }
     return 0;
