@@ -1,5 +1,13 @@
 #include <bits/stdc++.h>
 // https://leetcode.com/problems/the-skyline-problem/#
+/*
+A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a distance.
+Given the locations and heights of all the buildings, return the skyline formed by these buildings collectively.
+
+Explanation of solution:
+
+https://colab.research.google.com/drive/1WrdlIwrgTDdYX8esU14wn0sqvzpN-RSx?usp=sharing
+*/
 using namespace std;
 struct point{
     int x, h;
