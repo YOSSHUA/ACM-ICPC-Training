@@ -1,3 +1,11 @@
+/**
+Determine the minimum cost to provide library access to all citizens of HackerLand. There are  cities numbered from  to . 
+Currently there are no libraries and the cities are not connected. Bidirectional roads may be built between any city pair listed in . 
+A citizen has access to a library if:
+
+-Their city contains a library.
+-They can travel by road from their city to a city containing a library.
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
